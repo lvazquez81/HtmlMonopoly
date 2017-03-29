@@ -31,5 +31,18 @@ Game
 	* Mortage sell/pay
 	
 	
+How will the game start?
+
+1) Decide number of players.
+	* Names
+	* Piece
+2) Throw dice to decide order of players.
+	* Order of players
+3) First player throws dice and starts game
+4) Each player will
+	* Throw dice
+	* Buy property
+	* Pay rent
+	
 
 
