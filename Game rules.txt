@@ -1,0 +1,35 @@
+Monopoly
+
+Player questions
+
+	* Where is the player?
+	* Who is next?
+	* Throw dice to move player
+	* Buy a property
+	* Pay rent for a property
+	* Player has all properties?
+	* Buy house
+	* Buy hotel
+	* Has double turn
+	* Is currently in jail?
+	* Gets out of jail by payment.
+	* Gets out of jail by dice throw.
+	
+Game 
+
+	* Properties
+	* Player balance
+	* Houses
+	* Hotels
+	* Rent
+	* Turns
+	* Board
+	* Chance
+	* Community chest
+	* Player deals
+	* Bankrupcy
+	* Mortage sell/pay
+	
+	
+
+
