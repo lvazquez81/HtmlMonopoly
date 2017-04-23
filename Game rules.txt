@@ -35,6 +35,15 @@ How will the game start?
 
 1) Decide number of players.
 	* Names
+		Add player with name
+		Add player with no name
+		Add second player 
+		Add second player with same name
+		Add second player with same avatar
+		Remove player
+		Change player avatar
+		Change player avatar already taken
+		
 	* Piece
 2) Throw dice to decide order of players.
 	* Order of players

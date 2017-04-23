@@ -116,22 +116,65 @@
     </style>
 </head>
 <body>
-    <img src="img/monopoly_logo.jpg" />
+    <!-- Add players -->
     <div class="form-style-5">
         <form>
+            <img src="img/monopoly_logo.jpg" />
             <fieldset>
                 <legend>Introduce tu jugador</legend>
                 <input type="text" name="field1" placeholder="Nombre *" />
                 <label for="ddlFiguras">Elige tu figura:</label>
                 <select id="ddlFiguras" name="field4">
-                    <option value="football">Carro</option>
-                    <option value="swimming">Plancha</option>
-                    <option value="fishing">Perro</option>
-                    <option value="climbing">Gato</option>
+                    <option>Carro</option>
+                    <option>Plancha</option>
+                    <option>Perro</option>
+                    <option>Gato</option>
                 </select>
             </fieldset>
             <input type="submit" value="Agregar" />
         </form>
+    </div>
+
+    <!-- Current players -->
+    <style type="text/css">
+        #Players
+        {
+            background:grey;
+            padding:0.2em;
+            display:block;
+            margin:auto;
+        }
+        .player
+        {
+            width:25%;
+            border:1px solid black;
+            padding:0.5em;
+        }
+        .player h1
+        {
+            color:brown;
+        }
+        .player img
+        {
+            max-width:50%;
+            max-height:50%;
+            height: 136px;
+            width: 136px;
+        }
+    </style>
+    <div id="Players">
+        <div class="player">
+            <h1>Rossy</h1>
+            <img src="img/player_dog.jpg" />
+            <br />
+            <a href="#">Eliminar</a>
+        </div>
+        <div class="player">
+            <h1>Rossy</h1>
+            <img src="img/player_dog.jpg" />
+            <br />
+            <a href="#">Eliminar</a>
+        </div>
     </div>
 
 </body>

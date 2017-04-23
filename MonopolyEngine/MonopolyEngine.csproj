@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameAvatars.cs" />
+    <Compile Include="MonopolyGame.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="PlayerRoster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThrowResult.cs" />
   </ItemGroup>

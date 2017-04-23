@@ -1,22 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MonopolyEngine
+﻿namespace MonopolyEngine
 {
     public class Player
     {
-        public string Name { get; }
+        public string Name { get; private set; }
+        public GameAvatar Avatar { get; private set;}
 
-        public ThrowResult ThrowDice()
+        public Player(string name, GameAvatar avatar)
         {
-            return new ThrowResult()
-            {
-                DiceOne = 2,
-                DiceTwo = 5
-            };
+            this.Name = name;
+            this.Avatar = avatar;
         }
     }
 }
