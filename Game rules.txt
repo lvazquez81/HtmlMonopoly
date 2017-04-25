@@ -1,0 +1,57 @@
+Monopoly
+
+Player questions
+
+	* Where is the player?
+	* Who is next?
+	* Throw dice to move player
+	* Buy a property
+	* Pay rent for a property
+	* Player has all properties?
+	* Buy house
+	* Buy hotel
+	* Has double turn
+	* Is currently in jail?
+	* Gets out of jail by payment.
+	* Gets out of jail by dice throw.
+	
+Game 
+
+	* Properties
+	* Player balance
+	* Houses
+	* Hotels
+	* Rent
+	* Turns
+	* Board
+	* Chance
+	* Community chest
+	* Player deals
+	* Bankrupcy
+	* Mortage sell/pay
+	
+	
+How will the game start?
+
+1) Decide number of players.
+	* Names
+		Add player with name
+		Add player with no name
+		Add second player 
+		Add second player with same name
+		Add second player with same avatar
+		Remove player
+		Change player avatar
+		Change player avatar already taken
+		
+	* Piece
+2) Throw dice to decide order of players.
+	* Order of players
+3) First player throws dice and starts game
+4) Each player will
+	* Throw dice
+	* Buy property
+	* Pay rent
+	
+
+
