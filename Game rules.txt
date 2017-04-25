@@ -43,10 +43,12 @@ How will the game start?
 		Remove player
 		Change player avatar
 		Change player avatar already taken
-		
 	* Piece
 2) Throw dice to decide order of players.
 	* Order of players
+		Players throw differet values provides order.
+		Players throw same values shows to throw again.
+		Two players ouf of three throw same value.
 3) First player throws dice and starts game
 4) Each player will
 	* Throw dice
