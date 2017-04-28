@@ -6,14 +6,21 @@ namespace MonopolyEngine
     {
         public string Name { get; private set; }
         public GameAvatar Avatar { get; private set;}
-        public Dice Dice { get; private set; }
+        public IDice Dice { get; private set; }
 
-        public Player(string name, GameAvatar avatar)
+        public Player(string name, GameAvatar avatar, IDice dice = null)
         {
             this.Name = name;
             this.Avatar = avatar;
 
-            this.Dice = new Dice();
+            if(dice != null)
+            {
+                this.Dice = dice;
+            }else
+            {
+                this.Dice = new Dice();
+            }
+            
         }
 
         public void ThrowDice()

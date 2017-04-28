@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Dice.cs" />
     <Compile Include="GameAvatars.cs" />
+    <Compile Include="IDice.cs" />
     <Compile Include="MonopolyGame.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerRoster.cs" />

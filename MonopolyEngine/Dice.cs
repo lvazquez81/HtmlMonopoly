@@ -2,7 +2,7 @@
 
 namespace MonopolyEngine
 {
-    public class Dice
+    public class Dice : IDice
     {
         private readonly Random _rnd;
         public int DiceOne { get; private set; }

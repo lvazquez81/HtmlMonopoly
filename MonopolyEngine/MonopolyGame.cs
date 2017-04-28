@@ -19,9 +19,12 @@ namespace MonopolyEngine
         {
             bool orderSet = false;
 
-            if (p1.Dice.TotalValue != p2.Dice.TotalValue)
+            int p1TotalValue = p1.Dice.DiceOne + p1.Dice.DiceTwo;
+            int p2TotalValue = p2.Dice.DiceOne + p2.Dice.DiceTwo;
+
+            if (p1TotalValue != p2TotalValue)
             {
-                if (p1.Dice.TotalValue > p2.Dice.TotalValue)
+                if (p1TotalValue > p2TotalValue)
                 {
                     this.PlayOrder.Add(p1.Name);
                     this.PlayOrder.Add(p2.Name);
